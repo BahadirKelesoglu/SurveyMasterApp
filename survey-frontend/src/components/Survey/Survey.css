@@ -1,0 +1,60 @@
+.survey-container {
+    font-family: 'Arial', sans-serif;
+    width: 110%;
+    margin: 20px auto;
+    padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f8f8f8;
+    border-radius: 10px;
+}
+
+.survey-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+}
+
+.question-section h3 {
+    font-size: 22px;
+    color: #444;
+}
+
+.question-section h4 {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #555;
+}
+
+.question-section ul {
+    padding-left: 20px;
+}
+
+.question-section li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.question-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* This creates consistent gaps between the items */
+}
+
+.question {
+    flex: 1 0 calc(33.33% - 20px); /* Adjusts for 3 columns; can be adjusted as needed */
+    box-sizing: border-box; /* Ensures padding and border are included in the total width/height */
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.question-box {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}

@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2c3e50;
+}
+
+nav span {
+    margin: 0 15px;
+    color: white;
+    cursor: pointer;
+}
+
+nav span:hover {
+    text-decoration: underline;
+}
+
+.surveys-list {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ecf0f1;
+    border-radius: 10px;
+}
+
+.survey-title {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.survey-title:hover {
+    background-color: #ecf0f1;
+}

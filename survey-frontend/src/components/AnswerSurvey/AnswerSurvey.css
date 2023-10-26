@@ -1,0 +1,18 @@
+.enhanced-font {
+    font-family: 'Arial', sans-serif; /* Use a nice, readable font */
+    font-size: 18px; /* Increase or adjust font size for readability */
+    line-height: 1.5; /* Add some line height for improved readability */
+    color: #333; /* Dark grey color for the text */
+    margin-bottom: 1px; /* Add some bottom margin for spacing */
+}
+
+.question-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* This creates consistent gaps between the items */
+}
+
+.question {
+    flex: 1 0 calc(33.33% - 25px); /* Adjusts for 3 columns; can be adjusted as needed */
+    box-sizing: border-box; /* Ensures padding and border are included in the total width/height */
+}

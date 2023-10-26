@@ -1,0 +1,23 @@
+.container-fluid {
+    width: 110% !important;
+}
+
+.container {
+    width: 130% !important;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 30px; 
+    font-weight: 700; 
+}
+
+.survey-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+

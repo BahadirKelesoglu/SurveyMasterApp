@@ -1,0 +1,10 @@
+.question-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* This creates consistent gaps between the items */
+}
+
+.question {
+    flex: 1 0 calc(5% - 5px); /* Adjusts for 3 columns; can be adjusted as needed */
+    box-sizing: border-box; /* Ensures padding and border are included in the total width/height */
+}

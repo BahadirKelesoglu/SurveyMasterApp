@@ -1,0 +1,17 @@
+.navbar-custom {
+    background-color: #00f7ff;  /* This is a green color. Replace with your preferred color */
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .btn-link {
+    color: #000000;  /* This is white color for the text. Replace if needed */
+}
+
+.btn-logout {
+    background-color: #f44336;  /* This is a red color for logout button. Replace if needed */
+    color: #FFF;
+}
+
+.btn-logout:hover {
+    background-color: #da190b;  /* Darker red for hover effect */
+}
